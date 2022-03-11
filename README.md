@@ -1,4 +1,4 @@
-#S3 Copy Objects using multiple boto3 sessions
+# S3 Copy Objects using multiple boto3 sessions
 
 AWS default s3 copy API call does not work with two AWS principals (except for head object operation).
 The use case for this tool is when you have divided permissions on different AWS principals and want to
